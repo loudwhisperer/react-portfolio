@@ -1,0 +1,36 @@
+{
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "description": "brendan borowski's react portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\" ",
+    "start": "npm run build && cd server && node server.js",
+    "server": "cd server server.js --ignore client",
+    "build": "cd client && npm run build",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "client": "cd client && npm start"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loudwhisperer/react-portfolio.git"
+  },
+  "keywords": [
+    "react",
+    "tailwind",
+    "HTML5",
+    "CSS3"
+  ],
+  "author": "Brendan Borowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loudwhisperer/react-portfolio/issues"
+  },
+  "homepage": "https://github.com/loudwhisperer/react-portfolio#readme"
+}
