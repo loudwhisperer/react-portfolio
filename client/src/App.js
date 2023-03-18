@@ -37,13 +37,11 @@ function App() {
 }
 const Root = () => {
   return (
-    <>
-      <div className="container">
+      <div>
         <NavTabs />
         <Outlet />
         <Footer />
       </div>
-    </>
   );
 };
 

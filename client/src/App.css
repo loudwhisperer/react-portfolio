@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#meCard{
+     background-image: url("../src/assets/images/IMG_3487.jpg");
+}

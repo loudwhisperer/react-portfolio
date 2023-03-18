@@ -1,56 +1,59 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
+import Button from "./NavButton";
 
 export default function NavTabs(){
+  let Links = [
+    { name: "Home", link: "home" },
+    { name: "About", link: "about" },
+    { name: "Projects", link: "projects" },
+    { name: "Blog", link: "blog" },
+  ];
+  let [open, setOpen] = useState(false);
     return (
-      <nav className="bg-gray-50 dark:bg-gray-700">
-        <div className="max-w-screen-xl px-4 py-3 mx-auto md:px-6">
-          <div className="flex items-center">
-            <ul className="flex flex-row mt-0 mr-6 space-x-8 text-sm font-medium">
-              <li>
-                <Link
-                  to="home"
-                  className="text-gray-900 dark:text-white hover:underline"
-                >
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="about"
-                  className="text-gray-900 dark:text-white hover:underline"
-                >
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="contact"
-                  className="text-gray-900 dark:text-white hover:underline"
-                >
-                  Contact
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="projects"
-                  className="text-gray-900 dark:text-white hover:underline"
-                >
-                  Projects
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="blog"
-                  className="text-gray-900 dark:text-white hover:underline"
-                >
-                  Blog
-                </Link>
-              </li>
-            </ul>
+      <header className="bg-gray-50 dark:bg-gray-700 p-4 shadow-md w-full  top-0 left-0">
+        <nav className="flex justify-between items-center w-[92%]  mx-auto">
+          <div
+            className="font-bold text-2xl cursor-pointer flex items-center 
+      text-white"
+          >
+            <span className="text-4xl text-indigo-600 mr-1 pt-2">
+              <ion-icon name="man-outline"></ion-icon>
+            </span>
+            Brendan Borowski
           </div>
-        </div>
-      </nav>
+          <div className="duration-500 md:static absolute  md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
+            <div
+              onClick={() => setOpen(!open)}
+              className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden"
+            >
+              <ion-icon name={open ? "close" : "menu"}></ion-icon>
+            </div>
+
+            <ul
+              className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+                open ? "top-20 " : "top-[-490px]"
+              }`}
+            >
+              {Links.map((link) => {
+                return (
+                  <li>
+                    <Link
+                      to={link.link}
+                      className="text-gray-900 dark:text-white hover:underline md:ml-8 text-xl md:my-0 my-7"
+                    >
+                      {link.name}
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+            <Button>
+              <Link to="contact">Contact</Link>
+            </Button>
+          </div>
+        </nav>
+      </header>
     );
-}
+    }
 
