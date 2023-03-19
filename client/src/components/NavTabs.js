@@ -48,10 +48,10 @@ export default function NavTabs(){
                 );
               })}
             </ul>
-            <Button>
-              <Link to="contact">Contact</Link>
-            </Button>
           </div>
+          <Button>
+            <Link to="contact">Contact</Link>
+          </Button>
         </nav>
       </header>
     );

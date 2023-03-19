@@ -5,3 +5,9 @@
 #meCard{
      background-image: url("../src/assets/images/IMG_3487.jpg");
 }
+
+#skillCard{
+     background-image: url("../src/assets/images/js-symbol.png");
+     background-size: 180px;
+    
+}
