@@ -1,8 +1,9 @@
 import React from "react";
-import meImage from "../../assets/images/IMG_3487.jpg"
+
 
 export default function About() {
   return (
+    <>
     <section className="m-3">
       <h1 className="text-3xl mx-3 my-12 text-center underline">
         About Brendan
@@ -71,5 +72,6 @@ export default function About() {
         </p>
       </article> */}
     </section>
+    </>
   );
 }

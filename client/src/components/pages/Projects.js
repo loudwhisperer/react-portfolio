@@ -8,7 +8,7 @@ import noteKeeper from "../../assets/images/notes.png";
 import scheduler from "../../assets/images/page-intro.png";
 
 export default function Projects() {
-  let Projects = [
+  let Item = [
     {
       name: "Mark Me in the Middle",
       link: "https://artiecannv.github.io/mark-me-in-the-middle/",
@@ -55,9 +55,9 @@ export default function Projects() {
     <>
       <h1 className="text-7xl m-24 text-center underline">Past Projects </h1>
       <section className="flex justify-center align-center flex-wrap ml-44 mr-44 mt-8">
-        {Projects.map((project) => {
+        {Item.map((project) => {
           return (
-            <Link to={project.link}>
+            <Link to={project.link} target="_blank">
               <div class="max-w-sm rounded overflow-hidden shadow-lg m-4  w-4/5">
                 <img class="w-full" src={project.image} alt="App Photo" />
                 <div class="px-6 py-4">
