@@ -1,4 +1,5 @@
 import React from "react";
+import meImage from "../../assets/images/IMG_3487.jpg"
 
 export default function About() {
   return (
