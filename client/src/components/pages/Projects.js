@@ -53,8 +53,7 @@ export default function Projects() {
   ];
   return (
     <>
-      <h1 className="text-7xl m-24 text-center underline">Past Projects </h1>
-      <section className="flex justify-center align-center flex-wrap ml-44 mr-44 mt-8">
+      <section className="flex justify-center align-center flex-wrap ml-44 mr-44 mt-44 mb-32">
         {Item.map((project) => {
           return (
             <Link to={project.link} target="_blank">

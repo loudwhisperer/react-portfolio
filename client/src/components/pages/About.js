@@ -4,8 +4,8 @@ import React from "react";
 export default function About() {
   return (
     <>
-    <section className="m-3">
-      <h1 className="text-3xl mx-3 my-12 text-center underline">
+    <section className="mt-36 mb-16">
+      <h1 className="text-3xl mx-3 my-12 text-center">
         About Brendan
       </h1>
       <article className="mx-16 mt-18">
