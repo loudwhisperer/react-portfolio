@@ -3,22 +3,26 @@ import { Link } from 'react-router-dom';
 
 export default function Footer(){
   Symbol = [
-{
-  icon: "logo-linkedin",
-  link: "https://www.linkedin.com/in/brendan-borowski-886813230 "
-},
-{
-  icon:"logo-github",
-  link: "https://github.com/loudwhisperer"
-},
-{
-  icon: "logo-facebook",
-  link: "https://www.facebook.com/brendan.borowski.3"
-},
-{
-  icon: "logo-instagram",
-  link:"https://www.instagram.com/driftaway44/"
-}
+    {
+      icon: "logo-linkedin",
+      link: "https://www.linkedin.com/in/brendan-borowski-886813230 ",
+    },
+    {
+      icon: "logo-github",
+      link: "https://github.com/loudwhisperer",
+    },
+    {
+      icon: "logo-facebook",
+      link: "https://www.facebook.com/brendan.borowski.3",
+    },
+    {
+      icon: "logo-instagram",
+      link: "https://www.instagram.com/driftaway44/",
+    },
+    {
+      icon: "reader-outline",
+      link: "https://docs.google.com/document/d/18neA7nyXalBKuLVg1AQXchO4WKuWT6L3UC83LLzW3vc/edit?usp=sharing",
+    },
   ];
     return (
     <footer className="bg-gray-700">

@@ -36,3 +36,5 @@ MIT License
 
 - Is reactive to any page size and has a built in menu just for mobile
 
+- Can click on links in the footer to go to my LinkedIn, Github, Facebook, Instagram and my Resume
+
