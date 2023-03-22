@@ -16,7 +16,9 @@ I think the thing I took away most from this experience was learn the css librar
 
 
 
-![screenshot](./assets/routes.png)
+![screenshot](./client/src/assets/images/about-page.png)
+![screenshot](./client/src/assets/images/projects-page.png)
+![screenshot](./client/src/assets/images/contact-page.png)
 
 ## License
 
