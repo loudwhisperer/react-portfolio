@@ -5,7 +5,6 @@ export default function About() {
   return (
     <>
       <section className="mt-36 mb-16">
-        <h1 className="text-3xl mx-3 my-12 text-center">About Brendan</h1>
         <article className="mx-16 mt-18">
           <div className="max-w-sm w-full lg:max-w-full lg:flex m-3">
             <div

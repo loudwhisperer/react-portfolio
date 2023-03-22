@@ -31,10 +31,10 @@ export default function NavTabs(){
             >
               {Links.map((link) => {
                 return (
-                  <li className='ml-10 md:ml-8 text-xl md:my-0 my-7'>
+                  <li className="ml-10 md:ml-8 text-xl md:my-0 my-7">
                     <Link
                       to={link.link}
-                      className='lg:text-white lg:bg-gray-700 sm:text-black hover:text-gray-400 duration-500'
+                      className="lg:text-white lg:bg-gray-700 sm:text-black hover:text-gray-400 duration-500 focus:text-gray-400"
                     >
                       {link.name}
                     </Link>
