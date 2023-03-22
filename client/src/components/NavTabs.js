@@ -10,7 +10,7 @@ export default function NavTabs(){
   ];
   let [open, setOpen] = useState(false);
     return (
-      <header className="bg-gray-50 dark:bg-gray-700 p-4 shadow-md w-full fixed top-0 left-0">
+      <header className="bg-gray-700 p-4 shadow-md w-full fixed top-0 left-0">
         <nav className="md:flex justify-between items-center py-4 md:px-10 px-7">
           <div
             className="font-bold text-2xl cursor-pointer flex items-center 
@@ -34,7 +34,7 @@ export default function NavTabs(){
                   <li className='ml-10 md:ml-8 text-xl md:my-0 my-7'>
                     <Link
                       to={link.link}
-                      className='lg:text-white lg:bg-gray-700 sm:text-black sm:bg-white hover:text-gray-400 duration-500'
+                      className='lg:text-white lg:bg-gray-700 sm:text-black hover:text-gray-400 duration-500'
                     >
                       {link.name}
                     </Link>

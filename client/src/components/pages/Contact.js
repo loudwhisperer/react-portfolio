@@ -30,7 +30,7 @@ export default function Contact() {
 
     return (
       <>
-        <section className="bg-white dark:bg-gray-900 mt-16">
+        <section id="contact" className="bg-gray-900 lg:mt-16">
           <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
               Contact Me
@@ -87,9 +87,7 @@ export default function Contact() {
                 ></textarea>
               </div>
               {/* style button to look the same as contact button in nav*/}
-          <Button>
-                Send Message
-              </Button>
+              <Button>Send Message</Button>
             </form>
           </div>
         </section>

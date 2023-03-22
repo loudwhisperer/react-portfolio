@@ -4,7 +4,6 @@ import {
   createBrowserRouter,
   RouterProvider,
   Route,
-  Link,
   createRoutesFromElements,
   Outlet,
 } from "react-router-dom";
