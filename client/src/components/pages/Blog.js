@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Blog() {
     return (
-      <section className="flex justify-center m-48">
+      <section className="flex justify-center m-64">
         <h1 className="lg:text-8xl m-16 md:text-3xl sm:text-xl">
           Currently Under Construction
         </h1>
