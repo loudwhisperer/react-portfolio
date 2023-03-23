@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "homepage": "https://loudwhisperer.github.io/react-portfolio",
   "private": true,
+  "engines": {
+    "node": "16.15.0"
+  },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -20,7 +23,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build-css": "tailwindcss build -i ./src/styles.css -o ./public/styles.css --watch"
   },
   "eslintConfig": {
     "extends": [
