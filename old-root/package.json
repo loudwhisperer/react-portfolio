@@ -1,0 +1,37 @@
+{
+  "name": "react-portfolio",
+  "homepage": "https://loudwhisperer.github.io/react-portfolio/",
+  "version": "1.0.0",
+  "private": true,
+  "description": "brendan borowski's react portfolio",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "gh-pages": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loudwhisperer/react-portfolio.git"
+  },
+  "keywords": [
+    "react",
+    "tailwind",
+    "HTML5",
+    "CSS3"
+  ],
+  "author": "Brendan Borowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loudwhisperer/react-portfolio/issues"
+  }
+}
