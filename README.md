@@ -14,11 +14,20 @@ I think the thing I took away most from this experience was learn the css librar
 
 ## Usage
 
-
+The portfolio will open to the about page by default which is shown below:
 
 ![screenshot](./client/src/assets/images/about-page.png)
+
+You can then click through the navigation to the projects tab and click into any of the cards seen in the screenshot below to see the live app
+
 ![screenshot](./client/src/assets/images/projects-page.png)
+
+If you'd like to get in touch with me simply click on the contact button on the right of the navigation bar and the form below will show up.
+It is linked to emailJS and fully works 
+
 ![screenshot](./client/src/assets/images/contact-page.png)
+
+For future development I have a blog page that will use a mongoose db and a minimal graphql api to function 
 
 ## License
 
