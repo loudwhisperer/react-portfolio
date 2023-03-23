@@ -64,11 +64,11 @@ export default function Projects() {
         {Item.map((project) => {
           return (
             <Link to={project.link} key={project.id} target="_blank">
-              <div class="max-w-sm rounded overflow-hidden shadow-lg m-4  w-4/5">
-                <img class="w-full" src={project.image} alt="..." />
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">{project.name}</div>
-                  <p class="text-gray-700 text-base">{project.description}</p>
+              <div className="max-w-sm rounded overflow-hidden shadow-lg m-4  w-4/5">
+                <img className="w-full" src={project.image} alt="..." />
+                <div className="px-6 py-4">
+                  <div className="font-bold text-xl mb-2">{project.name}</div>
+                  <p className="text-gray-700 text-base">{project.description}</p>
                 </div>
               </div>
             </Link>
