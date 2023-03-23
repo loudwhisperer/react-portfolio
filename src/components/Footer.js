@@ -6,22 +6,27 @@ export default function Footer(){
     {
       icon: "logo-linkedin",
       link: "https://www.linkedin.com/in/brendan-borowski-886813230 ",
+      id: 1,
     },
     {
       icon: "logo-github",
       link: "https://github.com/loudwhisperer",
+      id: 2,
     },
     {
       icon: "logo-facebook",
       link: "https://www.facebook.com/brendan.borowski.3",
+      id: 3,
     },
     {
       icon: "logo-instagram",
       link: "https://www.instagram.com/driftaway44/",
+      id: 4,
     },
     {
       icon: "reader-outline",
       link: "https://docs.google.com/document/d/18neA7nyXalBKuLVg1AQXchO4WKuWT6L3UC83LLzW3vc/edit?usp=sharing",
+      id: 5,
     },
   ];
     return (
@@ -34,7 +39,7 @@ export default function Footer(){
             >
            {Something.map((totem) => {
                 return (
-                  <li className="text-4xl text-indigo-600 lg:mr-10  sm:mr-2 px-5 py-2 sm:text-2xl"> 
+                  <li key={totem.id} className="text-4xl text-indigo-600 lg:mr-10  sm:mr-2 px-5 py-2 sm:text-2xl"> 
                   <Link
                       to={totem.link}
                       className="text-4xl text-indigo-600 mr-3 pt-2"

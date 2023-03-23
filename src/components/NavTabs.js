@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import Button from "./NavButton";
 
 export default function NavTabs(){
-  let Links = [
-    { name: "About", link: "/" },
-    { name: "Projects", link: "projects" },
-    { name: "Blog", link: "blog" },
+  const Links = [
+    { name: "About", link: "/", id:1 },
+    { name: "Projects", link: "projects", id:2 },
+    { name: "Blog", link: "blog", id:3 },
   ];
   let [open, setOpen] = useState(false);
     return (
@@ -31,7 +31,7 @@ export default function NavTabs(){
             >
               {Links.map((link) => {
                 return (
-                  <li className="ml-10 md:ml-8 text-xl md:my-0 my-7">
+                  <li key={link.id} className="ml-10 md:ml-8 text-xl md:my-0 my-7">
                     <Link
                       to={link.link}
                       className="lg:text-white lg:bg-gray-700 sm:text-black hover:text-gray-400 duration-500 focus:text-gray-400"
