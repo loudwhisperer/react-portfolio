@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.daded20d.css",
-    "main.js": "/react-portfolio/static/js/main.07b15f4d.js",
+    "main.css": "/react-portfolio/static/css/main.bb757532.css",
+    "main.js": "/react-portfolio/static/js/main.351a7500.js",
     "static/js/787.bc673146.chunk.js": "/react-portfolio/static/js/787.bc673146.chunk.js",
     "static/media/markthemiddle.png": "/react-portfolio/static/media/markthemiddle.2c8d96421ac3af0a80b5.png",
     "static/media/IMG_3487.jpg": "/react-portfolio/static/media/IMG_3487.7e54b01fa6adf974a1ea.jpg",
@@ -11,12 +11,12 @@
     "static/media/jate.png": "/react-portfolio/static/media/jate.8798bc9ab5626940297a.png",
     "static/media/notes.png": "/react-portfolio/static/media/notes.82a89e51f0fe7943cfa6.png",
     "index.html": "/react-portfolio/index.html",
-    "main.daded20d.css.map": "/react-portfolio/static/css/main.daded20d.css.map",
-    "main.07b15f4d.js.map": "/react-portfolio/static/js/main.07b15f4d.js.map",
+    "main.bb757532.css.map": "/react-portfolio/static/css/main.bb757532.css.map",
+    "main.351a7500.js.map": "/react-portfolio/static/js/main.351a7500.js.map",
     "787.bc673146.chunk.js.map": "/react-portfolio/static/js/787.bc673146.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.daded20d.css",
-    "static/js/main.07b15f4d.js"
+    "static/css/main.bb757532.css",
+    "static/js/main.351a7500.js"
   ]
 }
