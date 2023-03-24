@@ -4,9 +4,9 @@ import Button from "./NavButton";
 
 export default function NavTabs(){
   const Links = [
-    { name: "About", link: "/", id:1 },
-    { name: "Projects", link: "projects", id:2 },
-    { name: "Blog", link: "blog", id:3 },
+    { name: "About", link: "/react-portfolio", id: 1 },
+    { name: "Projects", link: "projects", id: 2 },
+    { name: "Blog", link: "blog", id: 3 },
   ];
   let [open, setOpen] = useState(false);
     return (

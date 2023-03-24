@@ -17,9 +17,9 @@ import Projects from "./components/pages/Projects";
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<Root />}>
+      <Route path="/react-portfolio" element={<Root />}>
         <Route path="contact" element={<Contact />} />
-        <Route path="/" element={<About />} />
+        <Route path="/react-portfolio" element={<About />} />
         <Route path="blog" element={<Blog />} />
         <Route path="projects" element={<Projects />} />
       </Route>
