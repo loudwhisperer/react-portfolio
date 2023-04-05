@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import markTheMiddle from "../../assets/images/markthemiddle.png";
 import theTable from "../../assets/images/the-table.png"
 import weather from "../../assets/images/weather.png"
-import jate from "../../assets/images/jate.png";
+import scribe from "../../assets/images/thescribe.png";
 import noteKeeper from "../../assets/images/notes.png";
 import scheduler from "../../assets/images/page-intro.png";
 
@@ -34,11 +34,11 @@ export default function Projects() {
       id: 3,
     },
     {
-      name: "JATE",
-      link: "https://jate2023bb.herokuapp.com/",
+      name: "The Scribe",
+      link: "https://the-scribe.herokuapp.com/",
       description:
-        "A simple text editor that utilises PWA to allow an indexedDB, Application Download and offline use",
-      image: jate,
+        "A Reddit-like forum with a user profile that stores information for Dungeon Masters and GM's alike",
+      image: scribe,
       id: 4,
     },
     {
@@ -55,7 +55,7 @@ export default function Projects() {
       description:
         "Utilizes Bootstrap CSS, Dayjs, Jquery and Local Storage to give the user the ability to scedule their workday by hour and save those times to local storage by hour.",
       image: scheduler,
-      id: 6
+      id: 6,
     },
   ];
   return (
